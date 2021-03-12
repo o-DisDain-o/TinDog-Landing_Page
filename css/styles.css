@@ -1,0 +1,181 @@
+#title {
+  background-color: #ff4c68;
+  color: #FFFFFF;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0 18px 0;
+}
+
+/* title image */
+.title-img {
+  transform: rotate(20deg);
+  /* Equal to rotateZ(45deg) */
+  width: 60%;
+  padding-left: 50px;
+  position: absolute;
+  left: 99px;
+}
+
+/* Download buttons */
+.down-bttn {
+  margin: 5% 3% 5% 0;
+  ;
+}
+
+
+@media (max-width: 1233px) {
+  .title-img {
+    width: 66%;
+
+  }
+}
+
+@media (max-width: 1028px) {
+  .title-img {
+    text-align: center;
+    transform: rotate(0);
+    position: static;
+  }
+}
+/* Features */
+#features {
+  padding: 10rem 15rem;
+  font-family: "Montserrat";
+  background-color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+
+.feat {
+  text-align: center;
+  padding: 0 2.2rem 0;
+}
+
+.icon {
+  padding-bottom: 1rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+
+.feat-subtext {
+  font-weight: lighter;
+  color: #979EAA;
+}
+
+.row {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+.testi-img {
+  border-radius: 100%;
+  width: 10%;
+  padding: 20px 10px;
+}
+
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 100px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 50px 150px;
+  text-align: center;
+}
+
+.card {
+  margin: 5% 5%;
+}
+
+
+/* Call to Action Section */
+#cta {
+  background-color: #ff4c68;
+  padding: 52px 7% 0;
+
+  text-align: center;
+}
+
+.cta-heading {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+
+/* Footer */
+#footer {
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 7% 15%;
+}
+
+.cup {
+  padding: 20px 20px;
+}
